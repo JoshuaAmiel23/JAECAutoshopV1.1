@@ -1,0 +1,135 @@
+body{
+    margin: 3rem;
+    background-size: 1960px ;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpaperaccess.com/full/4874539.jpg)
+}
+#Main{
+    font-family: "lora", sans-serif;
+}
+.blackheader{
+    background-color: #141414;
+    border-top: 1px solid #373e46;
+    height: 60px;
+    padding-bottom: .5rem;
+    top: 12rem;
+    display: flex;
+    position: relative;
+  }
+.PI-position{
+    color: black;
+    padding-top: 2.5rem;
+    padding-left: .8em;
+    display: inline-flex;
+    position: absolute;
+}
+.Products{
+    top: 5rem;
+    left: 5rem;
+    gap: 2.8rem;
+    height: 7rem;
+    flex-direction: row;
+    display: inline-flex;
+    position: absolute;
+}
+.greddysize{
+    bottom: 8.5rem;
+    height: 25rem;
+    position: relative
+}
+.topnav-position{
+    padding-left: 45rem;
+    padding-top: 8.25rem;
+    position: relative;
+}
+.topnav {
+    display: inline-flex;
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background: no-repeat;
+    transition:0.45s;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.dropdown {
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; 
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    transition:0.35s;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .zoom {
+    padding: 5px;
+    background-color: black;
+    transition: transform .55s; /* Animation */
+    width: 270px;
+    height: 190px;
+    margin: 0 auto;
+  }
+  .zoom:hover {
+    transform: scale(1.26); 
+  }
+  .product-container{
+    border-radius: 19px;
+    left: 1.55rem;
+    top: 7rem ;
+    border: solid transparent;
+    display: inline-flex;
+    position: relative;
+  }
+  .GodzillaGear{
+    border-radius: 15px;
+  }
+  .GodzillaGear:hover {
+    content: url(./GodzillaGear2.jpg);
+  }
+  .BeatMaxTi{
+    left: 20.5rem;
+    border-radius: 15px;
+    position: absolute;
+  }
+  .BeatMaxTi:hover{
+   content: url(./BeatMaxTi.jpg);
+  }
+  
+  
