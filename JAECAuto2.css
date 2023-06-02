@@ -7,15 +7,15 @@ body{
 #Main{
     font-family: "lora", sans-serif;
 }
-.blackheader{
-    background-color: #141414;
-    border-top: 1px solid #373e46;
-    height: 60px;
-    padding-bottom: .5rem;
-    top: 12rem;
-    display: flex;
-    position: relative;
-  }
+.blackbar{
+  width: 113.5rem;
+  bottom: -14em;
+  background-color: black;
+  padding-bottom: 3.5rem;
+  border: solid black;
+  display: inline-flex;
+  position: relative;
+}
 .PI-position{
     color: black;
     padding-top: 2.5rem;
@@ -39,7 +39,7 @@ body{
 }
 .topnav-position{
     padding-left: 45rem;
-    padding-top: 8.25rem;
+    padding-top: 10.25rem;
     position: relative;
 }
 .topnav {
